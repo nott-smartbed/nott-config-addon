@@ -1,0 +1,23 @@
+{
+  "name": "Example Add-on",
+  "options": {
+    "api_token": {
+      "name": "API Token",
+      "description": "Enter your API token",
+      "required": true,
+      "type": "string"
+    },
+    "username": {
+      "name": "Username",
+      "description": "Enter your username",
+      "required": true,
+      "type": "string"
+    },
+    "password": {
+      "name": "Password",
+      "description": "Enter your password",
+      "required": true,
+      "type": "string"
+    }
+  }
+}
