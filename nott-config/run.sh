@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+# Source Bashio
+source /usr/bin/bashio
+
 # Read configuration options
 API_TOKEN=$(bashio::config 'api_token')
 USERNAME=$(bashio::config 'username')
