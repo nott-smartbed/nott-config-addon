@@ -1,4 +1,4 @@
-FROM homeassistant/amd64-base:latest
+FROM python:3.10-slim
 
 # Copy the run script
 COPY run.sh /run.sh
