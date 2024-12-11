@@ -6,6 +6,7 @@ arch:
   - amd64
   - armv7
   - armhf
+  - i386
 startup: "application"
 boot: "auto"
 options:
