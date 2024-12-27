@@ -18,3 +18,5 @@ schema:
   api_token: str
   username: str
   password: str
+devices:
+  - "/dev/ttyS4:/dev/ttyS4:rwm"
