@@ -1,6 +1,10 @@
 FROM python:3.10-slim
+WORKDIR /app
 
 # Copy the Python script
-COPY run.py /run.py
+COPY app /app
+COPY requirements.txt /requirements.txt
 
-CMD ["python", "/run.py"]
+RUN pip install -r /requirements.txt
+
+CMD ["python", "/app/device.py"]
